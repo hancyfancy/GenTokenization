@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GenTokenization.Service.Utilities.Implementation
 {
-    public class AlphanumericTokenizer : TokenizerBase
+    public class AlphanumericTokenizer : TokenizerBase, ITokenizer
     {
         private readonly char[] _chars;
 

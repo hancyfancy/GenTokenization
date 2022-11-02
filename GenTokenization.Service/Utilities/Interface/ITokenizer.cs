@@ -8,6 +8,6 @@ namespace GenTokenization.Service.Utilities.Interface
 {
     public interface ITokenizer
     {
-        string GetUniqueKey(char[] dataset, int size);
+        string GetUniqueKey(int size);
     }
 }

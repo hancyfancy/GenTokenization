@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GenTokenization.Service.Utilities.Implementation
 {
-    public abstract class TokenizerBase : ITokenizer
+    public abstract class TokenizerBase
     {
         public string GetUniqueKey(char[] dataset, int size)
         {

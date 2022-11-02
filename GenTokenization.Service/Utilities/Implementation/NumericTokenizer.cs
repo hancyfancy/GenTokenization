@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GenTokenization.Service.Utilities.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GenTokenization.Service.Utilities.Implementation
 {
-    public class NumericTokenizer : TokenizerBase
+    public class NumericTokenizer : TokenizerBase, ITokenizer
     {
         private readonly char[] _numbers;
 
